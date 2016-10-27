@@ -1,0 +1,43 @@
+.container-big{
+  width:90%;
+}
+
+#badgesContainer .card{
+  height:20em;
+}
+
+.card-title{
+  font-size:300% !important;
+  height:20%;
+}
+
+.card-content p{
+  font-size:250%;
+}
+
+.card .valign-wrapper{
+  height:70%;
+}
+
+.card-content{
+  height:100%;
+}
+
+#dateTime h2{
+  font-size:16px;
+}
+
+@media only screen and (orientation:portrait) {
+
+  body{
+    background: url("../images/sun-small.png") no-repeat top fixed;
+      background-size: cover;
+  }
+}
+
+@media only screen and (orientation:landscape) {
+body{
+  background: url("../images/sun-big.png") no-repeat top right fixed !important;
+    background-size: cover;
+}
+}
